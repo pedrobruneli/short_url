@@ -1,0 +1,29 @@
+{
+  "name": "encurtador-url",
+  "version": "1.0.0",
+  "description": "Encurtador de URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./dist/index.js",
+    "build:watch": "tsc -w"
+  },
+  "author": "bruneli",
+  "license": "ISC",
+  "dependencies": {
+    "@hasezoey/typegoose": "^5.9.2",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "cors": "^2.8.5",
+    "eslint": "^8.14.0",
+    "express": "^4.18.0",
+    "mongoose": "^5.6.7",
+    "nodemon": "^2.0.15",
+    "shortid": "^2.2.16",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/shortid": "^0.0.29"
+  }
+}
